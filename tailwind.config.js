@@ -6,6 +6,16 @@ module.exports = {
     "./components/*.{tsx,js}",
     "./components/**/*.{tsx,js}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        binance: {
+          yellow: "#FCD503",
+          green: "#5DC887",
+          teal: "#D6F4E7",
+        },
+      },
+    },
+  },
   plugins: [],
 }
